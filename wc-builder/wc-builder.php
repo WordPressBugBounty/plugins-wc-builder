@@ -3,7 +3,7 @@
  * Plugin Name: WC Builder - WooCommerce Page Builder for WPBakery
  * Description: The WooCommerce elements library for WPBakery page builder plugin for WordPress.
  * Plugin URI: 	http://hasthemes.com
- * Version: 	1.0.19
+ * Version: 	1.2.0
  * Author: 		HasThemes
  * Author URI: 	http://hasthemes.com
  * License:  	GPL-2.0+
@@ -14,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-define( 'WPBFORWPBAKERY_VERSION', '1.0.19' );
+define( 'WPBFORWPBAKERY_VERSION', '1.2.0' );
 define( 'WPBFORWPBAKERY_ADDONS_PL_URL', plugins_url( '/', __FILE__ ) );
 define( 'WPBFORWPBAKERY_ADDONS_PL_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WPBFORWPBAKERY_ADDONS_PL_ROOT', __FILE__ );
@@ -42,7 +42,9 @@ require_once WPBFORWPBAKERY_ADDONS_PL_PATH.'includes/metaboxes.php';
 
 if(is_admin()){
     require_once WPBFORWPBAKERY_ADDONS_PL_PATH.'includes/admin/recommended-plugins/class.recommended-plugins.php';
-    require_once WPBFORWPBAKERY_ADDONS_PL_PATH.'includes/admin/recommended-plugins/recommendations.php';
+    add_action('init', function() {
+        require_once WPBFORWPBAKERY_ADDONS_PL_PATH.'includes/admin/recommended-plugins/recommendations.php';
+    });
 }
 
 if( wpbforwpbakery_get_option('ajaxcart_singleproduct', 'wpbforwpbakery_other_tabs') === 'on' ){
