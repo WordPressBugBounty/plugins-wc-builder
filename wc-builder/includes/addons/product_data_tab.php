@@ -32,6 +32,16 @@ class WPBForWPbakery_Product_Data_Tab{
 
         ob_start();
         $unique_class = uniqid('wpbforwpbakery_product_data_tab');
+
+        // Sanitize CSS values to prevent XSS
+        $tab_title_color = wpbforwpbakery_sanitize_css_value( $tab_title_color );
+        $tab_title_font_size = wpbforwpbakery_sanitize_css_value( $tab_title_font_size );
+        $tab_title_line_height = wpbforwpbakery_sanitize_css_value( $tab_title_line_height );
+        $active_tab_title_color = wpbforwpbakery_sanitize_css_value( $active_tab_title_color );
+        $tab_heading_color = wpbforwpbakery_sanitize_css_value( $tab_heading_color );
+        $tab_heading_font_size = wpbforwpbakery_sanitize_css_value( $tab_heading_font_size );
+        $tab_heading_line_height = wpbforwpbakery_sanitize_css_value( $tab_heading_line_height );
+
         $output = '<style>';
         $output .= ".woocommerce .$unique_class ul li a{ color: {$tab_title_color}; font-size:{$tab_title_font_size} !important; line-height:{$tab_title_line_height} !important; }";
         $output .= ".woocommerce .$unique_class ul li.active a{ color: {$active_tab_title_color} !important; }";

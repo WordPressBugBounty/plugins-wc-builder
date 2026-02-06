@@ -31,6 +31,12 @@ class WPBForWPbakery_Product_Rating{
 
         ob_start();
         $unique_class = uniqid('wpbforwpbakery_product_rating_');
+
+        // Sanitize CSS values to prevent XSS
+        $rating_color = wpbforwpbakery_sanitize_css_value( $rating_color );
+        $link_color = wpbforwpbakery_sanitize_css_value( $link_color );
+        $link_hover_color = wpbforwpbakery_sanitize_css_value( $link_hover_color );
+
         $output = '<style>';
         $output .= ".$unique_class .star-rating span::before{color: {$rating_color} !important;}";
         $output .= ".$unique_class a.woocommerce-review-link{color: {$link_color} !important;}";

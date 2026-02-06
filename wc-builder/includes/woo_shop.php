@@ -86,10 +86,10 @@ class WPBForWPbakery_Woo_Custom_Template_Layout{
         $archive_template_id = $this->wpbforwpbakery_product_archive_template();
         if( $archive_template_id ){
         	if ($wpb_custom_css = get_post_meta($archive_template_id, '_wpb_post_custom_css', true)) {
-        		echo '<style type="text/css">' . $wpb_custom_css . '</style>';
+        		echo '<style type="text/css">' . wp_strip_all_tags( $wpb_custom_css ) . '</style>';
         	}
         	if ($wpb_shortcodes_custom_css = get_post_meta($archive_template_id, '_wpb_shortcodes_custom_css', true)) {
-        		echo '<style type="text/css">' . $wpb_shortcodes_custom_css . '</style>';
+        		echo '<style type="text/css">' . wp_strip_all_tags( $wpb_shortcodes_custom_css ) . '</style>';
         	}
 
         	$product_archive_custom_page = get_post($archive_template_id);
@@ -153,10 +153,10 @@ class WPBForWPbakery_Woo_Custom_Template_Layout{
 
 
         	if ($wpb_custom_css = get_post_meta($wpbtemplateid, '_wpb_post_custom_css', true)) {
-        		echo '<style type="text/css">' . $wpb_custom_css . '</style>';
+        		echo '<style type="text/css">' . wp_strip_all_tags( $wpb_custom_css ) . '</style>';
         	}
         	if ($wpb_shortcodes_custom_css = get_post_meta($wpbtemplateid, '_wpb_shortcodes_custom_css', true)) {
-        		echo '<style type="text/css">' . $wpb_shortcodes_custom_css . '</style>';
+        		echo '<style type="text/css">' . wp_strip_all_tags( $wpb_shortcodes_custom_css ) . '</style>';
         	}
 
         	$product_archive_custom_page = get_post($wpbtemplateid);

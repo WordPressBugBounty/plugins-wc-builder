@@ -29,6 +29,13 @@ class WPBForWPbakery_Product_Add_To_Cart{
 
         ob_start();
         $unique_class = uniqid('wpbforwpbakery_product_addto_cart_');
+
+        // Sanitize CSS values to prevent XSS
+        $button_bg_color = wpbforwpbakery_sanitize_css_value( $button_bg_color );
+        $button_text_color = wpbforwpbakery_sanitize_css_value( $button_text_color );
+        $button_hover_bg_color = wpbforwpbakery_sanitize_css_value( $button_hover_bg_color );
+        $button_hover_text_color = wpbforwpbakery_sanitize_css_value( $button_hover_text_color );
+
         $output = '<style>';
         $output .= ".$unique_class .single_add_to_cart_button{background-color: {$button_bg_color} !important; color: {$button_text_color} !important;  }";
         $output .= ".$unique_class .single_add_to_cart_button:hover{background-color: {$button_hover_bg_color} !important; color: {$button_hover_text_color} !important }";

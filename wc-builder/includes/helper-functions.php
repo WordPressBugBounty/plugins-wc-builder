@@ -139,17 +139,54 @@ function wpbforwpbakery_enqueue_google_font( $font_data ){
 	}
 }
 
-/*
- * wpbakery row custom class
- * return css class
+/**
+ * Get WPBakery row custom class.
+ * Sanitized to prevent XSS attacks.
+ *
+ * @since 1.0.0
+ * @since 1.2.1 Added esc_attr() sanitization for security.
+ * @param string $param_value The CSS parameter value.
+ * @param string $prefix Optional prefix for the class.
+ * @param string $atts Optional attributes.
+ * @return string Sanitized CSS class.
  */
 function wpbforwpbakery_get_vc_custom_class( $param_value, $prefix = '', $atts = '' ){
-	if(function_exists('vc_shortcode_custom_css_class')){ 
-		return vc_shortcode_custom_css_class($param_value, $prefix);
+	if(function_exists('vc_shortcode_custom_css_class')){
+		$class = vc_shortcode_custom_css_class($param_value, $prefix);
+		return esc_attr( $class );
 	}
 	$css_class = preg_match( '/\s*\.([^\{]+)\s*\{\s*([^\}]+)\s*\}\s*/', $param_value ) ? $prefix . preg_replace( '/\s*\.([^\{]+)\s*\{\s*([^\}]+)\s*\}\s*/', '$1', $param_value ) : '';
 
-	return $css_class;
+	return esc_attr( $css_class );
+}
+
+/**
+ * Sanitize CSS property value to prevent XSS attacks.
+ * Removes any characters that could be used to break out of CSS context.
+ *
+ * @since 1.2.1
+ * @param string $value The CSS value to sanitize.
+ * @return string Sanitized CSS value.
+ */
+function wpbforwpbakery_sanitize_css_value( $value ) {
+    if ( empty( $value ) ) {
+        return '';
+    }
+    // Remove any HTML tags
+    $value = wp_strip_all_tags( $value );
+    // Remove characters that could break out of CSS context
+    // This includes: < > { } ; (when followed by }) / \ " ' ` and newlines
+    $value = preg_replace( '/[<>{}\\\\"\'\`]/', '', $value );
+    // Remove any attempts to close style tags
+    $value = preg_replace( '/style\s*>/i', '', $value );
+    // Remove any script-related content
+    $value = preg_replace( '/script/i', '', $value );
+    // Remove semicolons followed by closing brace (prevents breaking out of CSS rule)
+    $value = preg_replace( '/;\s*\}/', '', $value );
+    // Trim whitespace
+    $value = trim( $value );
+
+    return $value;
 }
 
 /**

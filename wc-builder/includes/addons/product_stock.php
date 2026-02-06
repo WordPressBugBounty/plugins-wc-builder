@@ -30,6 +30,11 @@ class WPBForWPbakery_Product_Stock{
 
         ob_start();
         $unique_class = uniqid('wpbforwpbakery_product_stock_');
+
+        // Sanitize CSS values to prevent XSS
+        $in_stock_text_color = wpbforwpbakery_sanitize_css_value( $in_stock_text_color );
+        $out_of_stock_text_color = wpbforwpbakery_sanitize_css_value( $out_of_stock_text_color );
+
         $output = '<style>';
         $output .= ".$unique_class .stock.in-stock{color: {$in_stock_text_color} !important;}";
         $output .= ".$unique_class .stock.out-of-stock{color: {$out_of_stock_text_color} !important;}";

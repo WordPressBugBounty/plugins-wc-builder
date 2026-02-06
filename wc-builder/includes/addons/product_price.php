@@ -27,6 +27,11 @@ class WPBForWPbakery_Product_Price{
 
         ob_start();
         $unique_class = uniqid('wpbforwpbakery_product_price_');
+
+        // Sanitize CSS values to prevent XSS
+        $regular_price_color = wpbforwpbakery_sanitize_css_value( $regular_price_color );
+        $sale_price_color = wpbforwpbakery_sanitize_css_value( $sale_price_color );
+
         $output = '<style>';
         $output .= ".$unique_class {float:none !important;width:100% !important;margin:0 !important; }";
         $output .= ".$unique_class .price del{color: {$regular_price_color} !important }";

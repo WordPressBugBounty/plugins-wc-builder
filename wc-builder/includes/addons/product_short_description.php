@@ -41,6 +41,12 @@ class WPBForWPbakery_Product_Short_Description{
         $style = '';
         $styles = array();
 
+        // Sanitize CSS values to prevent XSS
+        $text_align = wpbforwpbakery_sanitize_css_value( $text_align );
+        $text_color = wpbforwpbakery_sanitize_css_value( $text_color );
+        $font_size = wpbforwpbakery_sanitize_css_value( $font_size );
+        $line_height = wpbforwpbakery_sanitize_css_value( $line_height );
+
         if( $text_align != "" ){
         	$styles[] = 'text-align:'. $text_align .'';
         }

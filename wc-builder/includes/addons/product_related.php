@@ -43,6 +43,13 @@ class WPBForWPbakery_Product_Related{
             'order'          => $order,
         );
 
+        // Sanitize CSS values to prevent XSS
+        $show_heading = wpbforwpbakery_sanitize_css_value( $show_heading );
+        $related_heading_color = wpbforwpbakery_sanitize_css_value( $related_heading_color );
+        $related_heading_font_size = wpbforwpbakery_sanitize_css_value( $related_heading_font_size );
+        $related_heading_line_height = wpbforwpbakery_sanitize_css_value( $related_heading_line_height );
+        $related_heading_align = wpbforwpbakery_sanitize_css_value( $related_heading_align );
+
         $output = '<style>';
         $output .= ".related > h2:first-child{display:{$show_heading}; }";
         $output .= ".related > h2:first-child{ color: {$related_heading_color}; font-size:{$related_heading_font_size};line-height:{$related_heading_line_height}; text-align:{$related_heading_align} }";

@@ -29,6 +29,14 @@ class WPBForWPbakery_Product_Additional_Information{
         $product = wc_get_product();
         ob_start();
 
+        // Sanitize CSS values to prevent XSS
+        $heading_color = wpbforwpbakery_sanitize_css_value( $heading_color );
+        $heading_font_size = wpbforwpbakery_sanitize_css_value( $heading_font_size );
+        $heading_line_height = wpbforwpbakery_sanitize_css_value( $heading_line_height );
+        $content_color = wpbforwpbakery_sanitize_css_value( $content_color );
+        $content_font_size = wpbforwpbakery_sanitize_css_value( $content_font_size );
+        $content_line_height = wpbforwpbakery_sanitize_css_value( $content_line_height );
+
         $output = '<style>';
         $output .= ".woocommerce .$unique_class h2{color:{$heading_color}; font-size:{$heading_font_size}; line-height: {$heading_line_height}; }";
         $output .= ".woocommerce .$unique_class .shop_attributes{color:{$content_color}; font-size:{$content_font_size}; line-height: {$content_line_height}; }";
