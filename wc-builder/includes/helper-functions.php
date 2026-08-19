@@ -28,9 +28,9 @@ function wpbforwpbakery_html_tag_lists() {
  */
 function wpbforwpbakery_text_align_lists(){
 	$text_align_list = [
-	      __( 'Left', 'my_text_domain' )  =>  'left',
-	      __( 'Center', 'my_text_domain' )  =>  'center',
-	      __( 'Right', 'my_text_domain' )  =>  'right',
+	      __( 'Left', 'wpbforwpbakery' )  =>  'left',
+	      __( 'Center', 'wpbforwpbakery' )  =>  'center',
+	      __( 'Right', 'wpbforwpbakery' )  =>  'right',
 	  ];
 
 	return $text_align_list;
@@ -90,7 +90,7 @@ function wpbforwpbakery_get_option( $option, $section, $default = '', $empty_che
 function wpbforwpbakery_get_fonts_data( $font_data ) {
 	$FontsParam = new Vc_Google_Fonts();
 	$fieldSettings = array();
-	$font_data = strlen( $font_data ) > 0 ? $FontsParam->_vc_google_fonts_parse_attributes( $fieldSettings, $font_data ) : '';
+	$font_data = ( is_string( $font_data ) && strlen( $font_data ) > 0 ) ? $FontsParam->_vc_google_fonts_parse_attributes( $fieldSettings, $font_data ) : '';
 	return $font_data;
 }
 
@@ -100,6 +100,10 @@ function wpbforwpbakery_get_fonts_data( $font_data ) {
  */
 function wpbforwpbakery_get_font_inline_style($font_data){
 	$styles = array();
+
+	if ( ! is_array( $font_data ) ) {
+		return '';
+	}
 
 	// Inline styles
 	$font_family = explode( ':', $font_data['values']['font_family'] );

@@ -64,23 +64,22 @@ class WPBForWPbakery_Product_Rating{
             "name" => __("WCB: Product Rating", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_rating",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_rating_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-star-filled',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(
             	    'param_name' => 'rating_color',
-            	    'heading' => __( 'Rating color', 'my_text_domain' ),
+            	    'heading' => __( 'Rating color', 'wpbforwpbakery' ),
             	    'type' => 'colorpicker',
             	),
             	array(
             	    'param_name' => 'link_color',
-            	    'heading' => __( 'Link color', 'my_text_domain' ),
+            	    'heading' => __( 'Link color', 'wpbforwpbakery' ),
             	    'type' => 'colorpicker',
             	),
             	array(
             	    'param_name' => 'link_hover_color',
-            	    'heading' => __( 'Link Hover color', 'my_text_domain' ),
+            	    'heading' => __( 'Link Hover color', 'wpbforwpbakery' ),
             	    'type' => 'colorpicker',
             	),
                 array(

@@ -60,8 +60,7 @@ class WPBForWPbakery_Product_Add_To_Cart{
             "name" => __("WCB: Product Add To Cart", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_add_to_cart",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_add_to_cart_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-cart',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(

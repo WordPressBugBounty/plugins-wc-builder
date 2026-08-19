@@ -3,7 +3,7 @@
  * Plugin Name: WC Builder - WooCommerce Page Builder for WPBakery
  * Description: The WooCommerce elements library for WPBakery page builder plugin for WordPress.
  * Plugin URI: 	http://hasthemes.com
- * Version: 	1.2.1
+ * Version: 	1.2.2
  * Author: 		HasThemes
  * Author URI: 	http://hasthemes.com
  * License:  	GPL-2.0+
@@ -14,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-define( 'WPBFORWPBAKERY_VERSION', '1.2.1' );
+define( 'WPBFORWPBAKERY_VERSION', '1.2.2' );
 define( 'WPBFORWPBAKERY_ADDONS_PL_URL', plugins_url( '/', __FILE__ ) );
 define( 'WPBFORWPBAKERY_ADDONS_PL_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WPBFORWPBAKERY_ADDONS_PL_ROOT', __FILE__ );
@@ -60,7 +60,7 @@ function wpbforwpbakery_initialize_plugin(){
 add_action( 'wp_enqueue_scripts','wpbforwpbakery_enqueue_scripts');
 function  wpbforwpbakery_enqueue_scripts(){
     // enqueue styles
-    wp_enqueue_style( 'wpbforwpbakery-main', WPBFORWPBAKERY_ADDONS_PL_URL.'/assets/css/main.css');
+    wp_enqueue_style( 'wpbforwpbakery-main', WPBFORWPBAKERY_ADDONS_PL_URL.'/assets/css/main.css', array(), WPBFORWPBAKERY_VERSION );
 
    // dynamic style
    $site_width = wpbforwpbakery_get_option( 'content_width', 'wpbforwpbakery_woo_template_tabs', '1170' );

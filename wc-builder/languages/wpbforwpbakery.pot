@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: WC Builder\n"
+"Project-Id-Version: WC Builder - WooCommerce Page Builder for WPBakery\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-10 12:09+0000\n"
+"POT-Creation-Date: 2026-08-19 11:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -13,118 +13,124 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.0; wp-5.2.2"
+"X-Loco-Version: 2.8.8; wp-7.0.4; php-8.4.18\n"
+"X-Domain: wpbforwpbakery"
 
-#: includes/admin/include/admin-setting.php:635
-msgid "$19"
+#. %s: Product title
+#: includes/single-add-to-cart-ajax.php:60
+#, php-format
+msgid "\"%1$s\" has been added to your cart. %2$s"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:713
-msgid "$199"
+#: includes/admin/include/admin-setting.php:886
+msgid "$19 / Yearly"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:636
-#: includes/admin/include/admin-setting.php:669
-msgid "$29"
+#: includes/admin/include/admin-setting.php:899
+msgid "$29 / Yearly"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:649
-#: includes/admin/include/admin-setting.php:670
-msgid "$39"
+#: includes/admin/include/admin-setting.php:931
+msgid "$39 / Lifetime"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:650
-#: includes/admin/include/admin-setting.php:682
-#: includes/admin/include/admin-setting.php:701
-msgid "$59"
+#: includes/admin/include/admin-setting.php:912
+msgid "$39 / Yearly"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:683
-msgid "$69"
+#: includes/admin/include/admin-setting.php:943
+msgid "$49 / Lifetime"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:702
-#: includes/admin/include/admin-setting.php:712
-msgid "$99"
+#: includes/admin/include/admin-setting.php:955
+msgid "$59 / Lifetime"
 msgstr ""
 
-#: includes/addons/archive_product.php:89
-#: includes/addons/archive_product.php:102
-#: includes/addons/product_related.php:93 includes/addons/product_upsell.php:66
+#: includes/addons/archive_product.php:134
+#: includes/addons/archive_product.php:147
+#: includes/addons/product_related.php:93 includes/addons/product_upsell.php:56
 msgid "1"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:639
-#: includes/admin/include/admin-setting.php:673
+#: includes/admin/include/admin-setting.php:889
+#: includes/admin/include/admin-setting.php:934
 msgid "1 Website"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:641
-#: includes/admin/include/admin-setting.php:655
+#: includes/admin/include/admin-setting.php:891
+#: includes/admin/include/admin-setting.php:904
+#: includes/admin/include/admin-setting.php:917
 msgid "1 Year Support"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:640
-#: includes/admin/include/admin-setting.php:654
+#: includes/admin/include/admin-setting.php:890
+#: includes/admin/include/admin-setting.php:903
+#: includes/admin/include/admin-setting.php:916
 msgid "1 Year Update"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:538
-msgid "18 Elements"
+#: includes/admin/include/admin-setting.php:798
+msgid "16 Elements"
 msgstr ""
 
-#: includes/addons/archive_product.php:90
-#: includes/addons/archive_product.php:103
-#: includes/addons/product_related.php:94 includes/addons/product_upsell.php:67
+#: includes/addons/archive_product.php:135
+#: includes/addons/archive_product.php:148
+#: includes/addons/product_related.php:94 includes/addons/product_upsell.php:57
 msgid "2"
 msgstr ""
 
-#: includes/addons/archive_product.php:91
-#: includes/addons/archive_product.php:104
-#: includes/addons/product_related.php:95 includes/addons/product_upsell.php:68
+#: includes/addons/archive_product.php:136
+#: includes/addons/archive_product.php:149
+#: includes/addons/product_related.php:95 includes/addons/product_upsell.php:58
 msgid "3"
 msgstr ""
 
-#: includes/addons/archive_product.php:92
-#: includes/addons/archive_product.php:105
-#: includes/addons/product_related.php:96 includes/addons/product_upsell.php:69
+#: includes/admin/include/admin-setting.php:897
+#: includes/admin/include/admin-setting.php:902
+#: includes/admin/include/admin-setting.php:941
+#: includes/admin/include/admin-setting.php:946
+msgid "3 Websites"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:814
+msgid "35 Elements"
+msgstr ""
+
+#: includes/addons/archive_product.php:137
+#: includes/addons/archive_product.php:150
+#: includes/addons/product_related.php:96 includes/addons/product_upsell.php:59
 msgid "4"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:555
-msgid "41 Elements"
-msgstr ""
-
-#: includes/addons/archive_product.php:93
-#: includes/addons/archive_product.php:106
-#: includes/addons/product_related.php:97 includes/addons/product_upsell.php:70
+#: includes/addons/archive_product.php:138
+#: includes/addons/archive_product.php:151
+#: includes/addons/product_related.php:97 includes/addons/product_upsell.php:60
 msgid "5"
 msgstr ""
 
-#: includes/addons/archive_product.php:107
+#: includes/addons/archive_product.php:152
 msgid "6"
 msgstr ""
 
 #: includes/activation-notice.php:24
 #, php-format
 msgid ""
-"<strong>HTMega Addons for WPBakery Page Builder</strong> requires "
-"%1$s\"WPBakery Page Builder\"%2$s plugin to be installed and activated. "
-"Please install WPBakery Page Builder to continue."
+"<strong>WC Builder</strong> requires %1$s\"WPBakery Page Builder\"%2$s "
+"plugin to be installed and activated. Please install WPBakery Page Builder "
+"to continue."
 msgstr ""
 
 #: includes/activation-notice.php:35
 msgid ""
-"<strong>HTMega Addons for WPBakery Page Builder</strong> requires WPBakery "
-"Page Builder plugin to be active. Please activate WPBakery Page Builder to "
-"continue."
+"<strong>WC Builder</strong> requires WPBakery Page Builder plugin to be "
+"active. Please activate WPBakery Page Builder to continue."
 msgstr ""
 
 #: includes/activation-notice.php:36
 msgid "Activate WPBakery Page Builder"
 msgstr ""
 
-#: includes/addons/product_data_tab.php:84
+#: includes/addons/product_data_tab.php:93
 msgid "Active Tab Title Color"
 msgstr ""
 
@@ -136,119 +142,251 @@ msgstr ""
 msgid "Add New Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:205
+#: includes/rename_label.php:9 includes/rename_label.php:19
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:519
+#: includes/admin/include/admin-setting.php:535
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:224
 msgid "Add To Cart Button"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:213
+#: includes/admin/include/admin-setting.php:516
+#: includes/admin/include/admin-setting.php:532
+msgid "Add to Cart Button Text"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:553
+msgid "Additiona information"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:232
+#: includes/admin/include/admin-setting.php:550
 msgid "Additional Information"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:461
-msgid "Advance Product Image <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:611
+#: includes/admin/include/admin-setting.php:614
+msgid "Address Optional"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:480
+msgid "Advance Product Image <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
 #: includes/custom-posts.php:13
 msgid "All Templates"
 msgstr ""
 
-#: includes/addons/product_upsell.php:94
+#: includes/addons/archive_product.php:169
+msgid "Allow Order"
+msgstr ""
+
+#: includes/addons/archive_product.php:215
+#: includes/addons/product_upsell.php:84
 msgid "ASC"
 msgstr ""
 
-#: includes/addons/product_add_to_cart.php:62
+#: includes/addons/product_add_to_cart.php:68
 msgid "Button BG Color"
 msgstr ""
 
-#: includes/addons/product_add_to_cart.php:72
+#: includes/addons/product_add_to_cart.php:78
 msgid "Button Hover BG Color"
 msgstr ""
 
-#: includes/addons/product_add_to_cart.php:77
+#: includes/addons/product_add_to_cart.php:83
 msgid "Button Hover Text Color"
 msgstr ""
 
-#: includes/addons/product_add_to_cart.php:67
+#: includes/addons/product_add_to_cart.php:73
 msgid "Button Text Color"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:65
+#: includes/admin/include/admin-setting.php:825
+#: includes/admin/include/admin-setting.php:845
+#: includes/admin/include/admin-setting.php:893
+#: includes/admin/include/admin-setting.php:906
+#: includes/admin/include/admin-setting.php:919
+#: includes/admin/include/admin-setting.php:938
+#: includes/admin/include/admin-setting.php:950
+#: includes/admin/include/admin-setting.php:962
+msgid "Buy Now"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:75
 msgid "Buy Pro"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:705
-msgid "Can be distributed with one Theme"
-msgstr ""
-
-#: includes/admin/include/admin-setting.php:716
-msgid "Can be distributed with unlimited Themes"
-msgstr ""
-
-#: includes/admin/include/admin-setting.php:544
-#: includes/admin/include/admin-setting.php:561
+#: includes/admin/include/admin-setting.php:803
+#: includes/admin/include/admin-setting.php:819
 msgid "Cart Page Builder"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:109
+#: includes/admin/include/admin-setting.php:128
 msgid "Cart Page Template"
 msgstr ""
 
-#: includes/addons/product_related.php:150
+#: includes/helper-functions.php:32 includes/addons/product_related.php:150
 msgid "Center"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:333
-msgid "Checkout Additional.. <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:533
+msgid "Change the Add to Cart button text for the Product details page."
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:341
-msgid "Checkout Billing Form <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:517
+msgid "Change the Add to Cart button text for the Shop page."
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:365
-msgid "Checkout Order Review <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:594
+msgid "Change the label for the Company field. <span>( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:545
-#: includes/admin/include/admin-setting.php:562
+#: includes/admin/include/admin-setting.php:666
+msgid "Change the label for the Country field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:657
+msgid "Change the label for the Email address field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:576
+msgid "Change the label for the First name field <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:585
+msgid "Change the label for the Last name field <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:612
+msgid "Change the label for the Optional address field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:675
+msgid "Change the label for the Order notes field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:648
+msgid "Change the label for the Phone field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:684
+msgid "Change the label for the Place order field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:630
+msgid "Change the label for the Postcode / ZIP field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:639
+msgid "Change the label for the State field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:603
+msgid "Change the label for the Street address field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:621
+msgid "Change the label for the Town/City field. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:551
+msgid ""
+"Change the tab title for the product additional information <span>( Pro )"
+"</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:542
+msgid "Change the tab title for the product description. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:560
+msgid ""
+"Change the tab title for the product review <span class=\"proelement\">( Pro "
+")</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:352
+msgid "Checkout Additional.. <span class=\"proelement\">( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:360
+msgid "Checkout Billing Form <span class=\"proelement\">( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:384
+msgid "Checkout Order Review <span class=\"proelement\">( Pro )</span>"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:568
+msgid "Checkout Page"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:804
+#: includes/admin/include/admin-setting.php:820
 msgid "Checkout Page Builder"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:121
+#: includes/admin/include/admin-setting.php:140
 msgid "Checkout Page Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:357
-msgid "Checkout Payment <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:376
+msgid "Checkout Payment <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:349
-msgid "Checkout Shipping Form <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:368
+msgid "Checkout Shipping Form <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/addons/archive_product.php:85
-#: includes/addons/product_related.php:89 includes/addons/product_upsell.php:62
+#: includes/addons/archive_product.php:130
+#: includes/addons/product_related.php:89 includes/addons/product_upsell.php:52
 msgid "Columns"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:526
+#: includes/admin/include/admin-setting.php:593
+#: includes/admin/include/admin-setting.php:596
+msgid "Company name"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:786
 msgid "Contact Us"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:79
+#: includes/addons/product_additional_information.php:86
 msgid "Content Color"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:84
+#: includes/addons/product_additional_information.php:91
 msgid "Content Font Size"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:90
+#: includes/addons/product_additional_information.php:97
 msgid "Content Line Height"
 msgstr ""
 
+#: includes/admin/include/admin-setting.php:101
+msgid "Content Width"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:51
+#: includes/admin/recommended-plugins/recommendations.php:98
+msgid "CookieRay – Cookie Banner for Cookie Consent (GDPR/CCPA Compliant)"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:665
+#: includes/admin/include/admin-setting.php:668
+msgid "Country"
+msgstr ""
+
+#: includes/addons/archive_product.php:195
 #: includes/addons/product_related.php:106
-#: includes/addons/product_upsell.php:79
+#: includes/addons/product_upsell.php:69
 msgid "Date"
 msgstr ""
 
@@ -256,17 +394,27 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: includes/addons/product_upsell.php:95
+#: includes/addons/archive_product.php:216
+#: includes/addons/product_upsell.php:85
 msgid "DESC"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:647
-#: includes/admin/include/admin-setting.php:680
-msgid "Developer License"
+#: includes/admin/include/admin-setting.php:541
+#: includes/admin/include/admin-setting.php:544
+msgid "Description"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:910
+#: includes/admin/include/admin-setting.php:953
+msgid "Developer / Agency"
 msgstr ""
 
 #: includes/helper-functions.php:19
 msgid "div"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:118
+msgid "ECourseGlade LMS – Online Course & eLearning Platform"
 msgstr ""
 
 #: includes/custom-posts.php:17
@@ -277,44 +425,64 @@ msgstr ""
 msgid "Elements"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:84
+#: includes/admin/include/admin-setting.php:656
+#: includes/admin/include/admin-setting.php:659
+msgid "Email address"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:94
+#: includes/admin/include/admin-setting.php:501
 msgid "Enable"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:83
+#: includes/admin/include/admin-setting.php:500
+msgid "Enable / Disable Rename Label"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:93
 msgid "Enable / Disable Template Builder"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:69
-#: includes/addons/product_additional_information.php:86
-#: includes/addons/product_data_tab.php:74
-#: includes/addons/product_data_tab.php:80
-#: includes/addons/product_data_tab.php:96
-#: includes/addons/product_data_tab.php:102
-#: includes/addons/product_description.php:101
+#: includes/addons/product_additional_information.php:76
+#: includes/addons/product_additional_information.php:93
+#: includes/addons/product_short_description.php:115
 #: includes/addons/product_related.php:134
 #: includes/addons/product_related.php:140
+#: includes/addons/product_title.php:121
+#: includes/addons/product_data_tab.php:83
+#: includes/addons/product_data_tab.php:89
+#: includes/addons/product_data_tab.php:105
+#: includes/addons/product_data_tab.php:111
+#: includes/addons/product_description.php:108
 msgid "Ex: 23px"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:75
-#: includes/addons/product_additional_information.php:92
-#: includes/addons/product_description.php:107
+#: includes/addons/product_additional_information.php:82
+#: includes/addons/product_additional_information.php:99
+#: includes/addons/product_short_description.php:121
+#: includes/addons/product_title.php:127
+#: includes/addons/product_description.php:114
 msgid "Ex: 25px"
 msgstr ""
 
-#: includes/addons/archive_product.php:122
-#: includes/addons/product_additional_information.php:96
-#: includes/addons/product_add_to_cart.php:82
-#: includes/addons/product_data_tab.php:106
-#: includes/addons/product_description.php:132
-#: includes/addons/product_image.php:51 includes/addons/product_meta.php:47
-#: includes/addons/product_price.php:70 includes/addons/product_rating.php:81
+#: includes/admin/recommended-plugins/recommendations.php:113
+msgid ""
+"Extensions For CF7 (Contact form 7 Database, Conditional Fields and "
+"Redirection)"
+msgstr ""
+
+#: includes/addons/product_reviews.php:52
+#: includes/addons/product_additional_information.php:103
+#: includes/addons/product_short_description.php:146
+#: includes/addons/product_rating.php:87 includes/addons/product_price.php:75
+#: includes/addons/archive_product.php:225 includes/addons/product_image.php:59
 #: includes/addons/product_related.php:155
-#: includes/addons/product_reviews.php:53
-#: includes/addons/product_short_description.php:139
-#: includes/addons/product_stock.php:73 includes/addons/product_title.php:144
-#: includes/addons/product_upsell.php:100
+#: includes/addons/product_title.php:152
+#: includes/addons/product_data_tab.php:115
+#: includes/addons/product_description.php:139
+#: includes/addons/product_upsell.php:90 includes/addons/product_meta.php:48
+#: includes/addons/product_stock.php:79
+#: includes/addons/product_add_to_cart.php:88
 msgid "Extra class name"
 msgstr ""
 
@@ -326,7 +494,14 @@ msgstr ""
 msgid "Filter items list"
 msgstr ""
 
-#: includes/addons/product_description.php:99
+#: includes/admin/include/admin-setting.php:575
+#: includes/admin/include/admin-setting.php:578
+msgid "First name"
+msgstr ""
+
+#: includes/addons/product_short_description.php:113
+#: includes/addons/product_title.php:119
+#: includes/addons/product_description.php:106
 msgid "Font Size"
 msgstr ""
 
@@ -336,10 +511,6 @@ msgstr ""
 
 #: includes/activation-notice.php:25
 msgid "Get It Now"
-msgstr ""
-
-#: includes/admin/include/admin-setting.php:582
-msgid "Go Premium"
 msgstr ""
 
 #: includes/helper-functions.php:12
@@ -367,31 +538,36 @@ msgid "H6"
 msgstr ""
 
 #. Author of the plugin
-msgid "Hasthemes"
+msgid "HasThemes"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:62
+#: includes/addons/product_additional_information.php:69
 msgid "Heading Color"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:67
+#: includes/addons/product_additional_information.php:74
 msgid "Heading Font Size"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:73
+#: includes/addons/product_additional_information.php:80
 msgid "Heading Line Height"
 msgstr ""
 
+#: includes/admin/recommended-plugins/recommendations.php:93
+msgid "HT Easy GA4 ( Google Analytics 4 )"
+msgstr ""
+
 #. URI of the plugin
-msgid "http://demo.wphash.com/wc-page-builder/"
-msgstr ""
-
 #. Author URI of the plugin
-msgid "https://htplugins.com/"
+msgid "http://hasthemes.com"
 msgstr ""
 
-#: includes/addons/product_stock.php:63
+#: includes/addons/product_stock.php:69
 msgid "In Stock Text Color"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:108
+msgid "Insert Headers and Footers Code"
 msgstr ""
 
 #: includes/custom-posts.php:27
@@ -406,84 +582,112 @@ msgstr ""
 msgid "Items list navigation"
 msgstr ""
 
-#: includes/addons/product_related.php:148
+#: includes/admin/recommended-plugins/recommendations.php:61
+msgid "Kelune CRM"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:584
+#: includes/admin/include/admin-setting.php:587
+msgid "Last name"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:809
+msgid "Learn More"
+msgstr ""
+
+#: includes/helper-functions.php:31 includes/addons/product_related.php:148
 msgid "Left"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:624
+#: includes/admin/include/admin-setting.php:876
 msgid "Life Time"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:675
-#: includes/admin/include/admin-setting.php:688
+#: includes/admin/include/admin-setting.php:936
+#: includes/admin/include/admin-setting.php:948
+#: includes/admin/include/admin-setting.php:960
 msgid "Lifetime Support"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:674
-#: includes/admin/include/admin-setting.php:687
+#: includes/admin/include/admin-setting.php:935
+#: includes/admin/include/admin-setting.php:947
+#: includes/admin/include/admin-setting.php:959
 msgid "Lifetime Update"
 msgstr ""
 
-#: includes/addons/product_description.php:105
+#: includes/addons/product_short_description.php:119
+#: includes/addons/product_title.php:125
+#: includes/addons/product_description.php:112
 msgid "Line Height"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:405
-msgid "Login Form <span>( Pro )</span>"
+#: includes/addons/product_rating.php:77
+msgid "Link color"
 msgstr ""
 
+#: includes/addons/product_rating.php:82
+msgid "Link Hover color"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:424
+msgid "Login Form <span class=\"proelement\">( Pro )</span>"
+msgstr ""
+
+#: includes/addons/archive_product.php:201
 #: includes/addons/product_related.php:112
-#: includes/addons/product_upsell.php:85
+#: includes/addons/product_upsell.php:75
 msgid "Menu Order"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:389
-msgid "My Account <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:408
+msgid "My Account <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:548
-#: includes/admin/include/admin-setting.php:565
+#: includes/admin/include/admin-setting.php:807
+#: includes/admin/include/admin-setting.php:823
 msgid "My Account Login page Builder"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:157
+#: includes/admin/include/admin-setting.php:176
 msgid "My Account Login page Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:547
-#: includes/admin/include/admin-setting.php:564
+#: includes/admin/include/admin-setting.php:806
+#: includes/admin/include/admin-setting.php:822
 msgid "My Account Page Builder"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:145
+#: includes/admin/include/admin-setting.php:164
 msgid "My Account Page Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:397
-msgid "Myaccount Address <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:416
+msgid "Myaccount Address <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:373
-msgid "Myaccount Dashboard <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:392
+msgid "Myaccount Dashboard <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:381
-msgid "Myaccount Download <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:400
+msgid "Myaccount Download <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:421
-msgid "Myaccount Logout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:440
+msgid "Myaccount Logout <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:429
-msgid "Myaccount Order <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:448
+msgid "Myaccount Order <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
 #: includes/custom-posts.php:16
 msgid "New Template"
 msgstr ""
 
-#: includes/addons/archive_product.php:117
+#: includes/addons/archive_product.php:163
+#: includes/addons/archive_product.php:174
+#: includes/addons/archive_product.php:185
 #: includes/addons/product_related.php:122
 msgid "No"
 msgstr ""
@@ -496,24 +700,53 @@ msgstr ""
 msgid "Not found in Trash"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:623
+#: includes/admin/recommended-plugins/recommendations.php:41
+msgid "Notification Bar for WordPress"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:875
 msgid "One Year"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:521
+#: includes/admin/include/admin-setting.php:781
 msgid "Online Documentation"
 msgstr ""
 
-#: includes/addons/product_upsell.php:90
+#: includes/addons/archive_product.php:211
+#: includes/addons/product_upsell.php:80
 msgid "Order"
 msgstr ""
 
+#: includes/addons/archive_product.php:191
 #: includes/addons/product_related.php:102
-#: includes/addons/product_upsell.php:75
+#: includes/addons/product_upsell.php:65
 msgid "Order By"
 msgstr ""
 
-#: includes/addons/product_stock.php:68
+#: includes/admin/include/admin-setting.php:674
+msgid "Order Note"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:677
+msgid "Order notes"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:83
+msgid "Other Plugins"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:70
+msgid "Others"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:844
+msgid ""
+"Our free version is great, but it doesn't have all our advanced features. "
+"The best way to unlock all of the features in our plugin is by purchasing "
+"the pro version."
+msgstr ""
+
+#: includes/addons/product_stock.php:74
 msgid "Out Of Stock Text Color"
 msgstr ""
 
@@ -521,7 +754,7 @@ msgstr ""
 msgid "p"
 msgstr ""
 
-#: includes/addons/archive_product.php:112
+#: includes/addons/archive_product.php:158
 msgid "Paginate"
 msgstr ""
 
@@ -529,107 +762,128 @@ msgstr ""
 msgid "Parent Template:"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:633
-#: includes/admin/include/admin-setting.php:667
+#: includes/admin/include/admin-setting.php:884
+#: includes/admin/include/admin-setting.php:929
 msgid "Personal"
 msgstr ""
 
+#: includes/admin/include/admin-setting.php:647
+#: includes/admin/include/admin-setting.php:650
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:56
+msgid "Pixelavo – Server Side Tracking & Pixel + AI Ads Tools"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:683
+#: includes/admin/include/admin-setting.php:686
+msgid "Place order"
+msgstr ""
+
+#: includes/addons/archive_product.php:198
 #: includes/addons/product_related.php:109
-#: includes/addons/product_upsell.php:82
+#: includes/addons/product_upsell.php:72
 msgid "Popularity"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:587
-msgid "premium version"
+#: includes/admin/include/admin-setting.php:629
+#: includes/admin/include/admin-setting.php:632
+msgid "Postcode / ZIP"
 msgstr ""
 
+#: includes/addons/archive_product.php:197
 #: includes/addons/product_related.php:108
-#: includes/addons/product_upsell.php:81
+#: includes/addons/product_upsell.php:71
 msgid "Price"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:181
+#: includes/admin/include/admin-setting.php:200
 msgid "Product Archive"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:543
-#: includes/admin/include/admin-setting.php:560
+#: includes/admin/include/admin-setting.php:802
+#: includes/admin/include/admin-setting.php:818
 msgid "Product Archive Category Wise Individual layout"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:301
-msgid "Product Archive Layout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:320
+msgid "Product Archive Layout <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:100
+#: includes/admin/include/admin-setting.php:119
 msgid "Product Archive Page Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:309
-msgid "Product Cart Table <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:328
+msgid "Product Cart Table <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:317
-msgid "Product Cart Total <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:336
+msgid "Product Cart Total <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:325
-msgid "Product Cross Sell <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:344
+msgid "Product Cross Sell <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:221
+#: includes/admin/include/admin-setting.php:240
 msgid "Product data Tab"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:229
+#: includes/admin/include/admin-setting.php:248
 msgid "Product Description"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:269
+#: includes/admin/include/admin-setting.php:525
+msgid "Product Details Page"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:288
 msgid "Product Image"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:293
+#: includes/admin/include/admin-setting.php:312
 msgid "Product Meta Info"
 msgstr ""
 
-#: includes/addons/archive_product.php:59
+#: includes/addons/archive_product.php:105
 msgid "Product Not Available"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:245
+#: includes/admin/include/admin-setting.php:264
 msgid "Product Price"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:253
+#: includes/admin/include/admin-setting.php:272
 msgid "Product Rating"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:261
+#: includes/admin/include/admin-setting.php:280
 msgid "Product Reviews"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:237
+#: includes/admin/include/admin-setting.php:256
 msgid "Product Short Description"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:469
-msgid "Product Social Share <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:488
+msgid "Product Social Share <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:285
+#: includes/admin/include/admin-setting.php:304
 msgid "Product Stock Status"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:173
+#: includes/admin/include/admin-setting.php:192
 msgid "Product Tab"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:189
+#: includes/admin/include/admin-setting.php:208
 msgid "Product Title"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:277
+#: includes/admin/include/admin-setting.php:296
 msgid "Product Upsell"
 msgstr ""
 
@@ -637,25 +891,38 @@ msgstr ""
 msgid "Products Per Page"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:587
-msgid "Purchase our"
-msgstr ""
-
 #: includes/addons/product_related.php:111
-#: includes/addons/product_upsell.php:84
+#: includes/addons/product_upsell.php:74
 msgid "Rand"
 msgstr ""
 
+#: includes/addons/archive_product.php:200
+msgid "Random"
+msgstr ""
+
+#: includes/addons/archive_product.php:199
 #: includes/addons/product_related.php:110
-#: includes/addons/product_upsell.php:83
+#: includes/addons/product_upsell.php:73
 msgid "Rating"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:413
-msgid "Register Form <span>( Pro )</span>"
+#: includes/addons/product_rating.php:72
+msgid "Rating color"
 msgstr ""
 
-#: includes/addons/product_price.php:60
+#: includes/admin/recommended-plugins/recommendations.php:30
+msgid "Recommended Plugins"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:103
+msgid "Recurio – Ultimate Subscription for WooCommerce"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:432
+msgid "Register Form <span class=\"proelement\">( Pro )</span>"
+msgstr ""
+
+#: includes/addons/product_price.php:65
 msgid "Regular Price Color"
 msgstr ""
 
@@ -675,7 +942,7 @@ msgstr ""
 msgid "Related Heading Text Align"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:197
+#: includes/admin/include/admin-setting.php:216
 msgid "Related Product"
 msgstr ""
 
@@ -683,15 +950,24 @@ msgstr ""
 msgid "Remove featured image"
 msgstr ""
 
-#: includes/addons/product_related.php:149
+#: includes/admin/include/admin-setting.php:65
+msgid "Rename Label"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:559
+#: includes/admin/include/admin-setting.php:562
+msgid "Reviews"
+msgstr ""
+
+#: includes/helper-functions.php:33 includes/addons/product_related.php:149
 msgid "Right"
 msgstr ""
 
-#: includes/addons/archive_product.php:98
+#: includes/addons/archive_product.php:143
 msgid "Rows"
 msgstr ""
 
-#: includes/addons/product_price.php:65
+#: includes/addons/product_price.php:70
 msgid "Sale Price Color"
 msgstr ""
 
@@ -699,11 +975,15 @@ msgstr ""
 msgid "Search Template"
 msgstr ""
 
-#: includes/addons/product_description.php:120
+#: includes/addons/product_short_description.php:134
+#: includes/addons/product_title.php:140
+#: includes/addons/product_description.php:127
 msgid "Select font family."
 msgstr ""
 
-#: includes/addons/product_description.php:121
+#: includes/addons/product_short_description.php:135
+#: includes/addons/product_title.php:141
+#: includes/addons/product_description.php:128
 msgid "Select font styling."
 msgstr ""
 
@@ -711,84 +991,112 @@ msgstr ""
 msgid "Set featured image"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:540
-#: includes/admin/include/admin-setting.php:557
-msgid "Shop Page Builder ( Custom Design )"
+#: includes/admin/include/admin-setting.php:102
+msgid "Sets the default width of the content area. e.g: 1170px"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:539
-#: includes/admin/include/admin-setting.php:556
-msgid "Shop Page Builder ( Default Layout )"
+#. 1: Settings label
+#: wc-builder.php:122
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:509
+msgid "Shop Page"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:799
+#: includes/admin/include/admin-setting.php:815
+msgid "Shop Page Builder"
 msgstr ""
 
 #: includes/addons/product_related.php:117
 msgid "Show Heading"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:542
-#: includes/admin/include/admin-setting.php:559
+#: includes/addons/archive_product.php:180
+msgid "Show Result Count"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:801
+#: includes/admin/include/admin-setting.php:817
 msgid "Single Product Individual Layout"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:91
+#: includes/admin/include/admin-setting.php:110
 msgid "Single Product Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:541
-#: includes/admin/include/admin-setting.php:558
+#: includes/admin/include/admin-setting.php:800
+#: includes/admin/include/admin-setting.php:816
 msgid "Single Product Template Builder"
-msgstr ""
-
-#: includes/admin/include/admin-setting.php:699
-msgid "Single Theme"
 msgstr ""
 
 #: includes/helper-functions.php:20
 msgid "span"
 msgstr ""
 
-#: includes/addons/archive_product.php:124
-#: includes/addons/product_additional_information.php:98
-#: includes/addons/product_add_to_cart.php:84
-#: includes/addons/product_data_tab.php:108
-#: includes/addons/product_description.php:134
-#: includes/addons/product_image.php:53 includes/addons/product_meta.php:49
-#: includes/addons/product_price.php:72 includes/addons/product_rating.php:83
+#: includes/admin/include/admin-setting.php:638
+#: includes/admin/include/admin-setting.php:641
+msgid "State"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:602
+#: includes/admin/include/admin-setting.php:605
+msgid "Street address"
+msgstr ""
+
+#: includes/addons/product_reviews.php:54
+#: includes/addons/product_additional_information.php:105
+#: includes/addons/product_short_description.php:148
+#: includes/addons/product_rating.php:89 includes/addons/product_price.php:77
+#: includes/addons/archive_product.php:227 includes/addons/product_image.php:61
 #: includes/addons/product_related.php:157
-#: includes/addons/product_reviews.php:55
-#: includes/addons/product_short_description.php:141
-#: includes/addons/product_stock.php:75 includes/addons/product_title.php:146
-#: includes/addons/product_upsell.php:102
+#: includes/addons/product_title.php:154
+#: includes/addons/product_data_tab.php:117
+#: includes/addons/product_description.php:141
+#: includes/addons/product_upsell.php:92 includes/addons/product_meta.php:50
+#: includes/addons/product_stock.php:81
+#: includes/addons/product_add_to_cart.php:90
 msgid ""
 "Style this element differently - add a class name and refer to it in custom "
 "CSS."
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:501
+#: includes/admin/include/admin-setting.php:761
 msgid "Successfully Settings Saved."
 msgstr ""
 
-#: includes/addons/product_data_tab.php:89
+#: includes/admin/recommended-plugins/recommendations.php:36
+msgid ""
+"Support Genix – Helpdesk, AI Chatbot, Knowledge Base & Customer Support "
+"Ticketing System"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:77
+msgid "Swatchly – Product Variation Swatches for WooCommerce"
+msgstr ""
+
+#: includes/addons/product_data_tab.php:98
 msgid "Tab Heading Color"
 msgstr ""
 
-#: includes/addons/product_data_tab.php:94
+#: includes/addons/product_data_tab.php:103
 msgid "Tab Heading Font Size"
 msgstr ""
 
-#: includes/addons/product_data_tab.php:100
+#: includes/addons/product_data_tab.php:109
 msgid "Tab Heading Line Height"
 msgstr ""
 
-#: includes/addons/product_data_tab.php:67
+#: includes/addons/product_data_tab.php:76
 msgid "Tab Title Color"
 msgstr ""
 
-#: includes/addons/product_data_tab.php:72
+#: includes/addons/product_data_tab.php:81
 msgid "Tab Title Font Size"
 msgstr ""
 
-#: includes/addons/product_data_tab.php:78
+#: includes/addons/product_data_tab.php:87
 msgid "Tab Title Line Height"
 msgstr ""
 
@@ -806,37 +1114,45 @@ msgstr ""
 msgid "Template Archives"
 msgstr ""
 
+#: includes/metaboxes.php:17
+msgid "Template Layout"
+msgstr ""
+
 #: includes/custom-posts.php:34
 msgid "Templates"
 msgstr ""
 
-#: includes/addons/product_description.php:87
+#: includes/addons/product_short_description.php:101
+#: includes/addons/product_title.php:107
+#: includes/addons/product_description.php:94
 msgid "Text Align"
 msgstr ""
 
-#: includes/addons/product_description.php:94
+#: includes/addons/product_short_description.php:108
+#: includes/addons/product_title.php:114
+#: includes/addons/product_description.php:101
 msgid "Text color"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:546
-#: includes/admin/include/admin-setting.php:563
+#: includes/admin/include/admin-setting.php:805
+#: includes/admin/include/admin-setting.php:821
 msgid "Thank You Page Builder"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:133
+#: includes/admin/include/admin-setting.php:152
 msgid "Thank You Page Template"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:445
-msgid "Thankyou Cus.. Address <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:464
+msgid "Thankyou Cus.. Address <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:437
-msgid "Thankyou Order <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:456
+msgid "Thankyou Order <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:453
-msgid "Thankyou Order Details <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:472
+msgid "Thankyou Order Details <span class=\"proelement\">( Pro )</span>"
 msgstr ""
 
 #. Description of the plugin
@@ -845,29 +1161,23 @@ msgid ""
 "WordPress."
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:625
-msgid "Theme Seller"
-msgstr ""
-
+#: includes/addons/archive_product.php:196
 #: includes/addons/product_related.php:107
-#: includes/addons/product_upsell.php:80
+#: includes/addons/product_upsell.php:70
 msgid "Title"
 msgstr ""
 
-#: includes/addons/product_title.php:92
+#: includes/addons/product_title.php:100
 msgid "Title HTML Tag"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:587
-msgid "to unlock these pro elements!"
+#: includes/admin/include/admin-setting.php:620
+#: includes/admin/include/admin-setting.php:623
+msgid "Town / City"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:710
-msgid "Unlimited Theme"
-msgstr ""
-
-#: includes/admin/include/admin-setting.php:653
-#: includes/admin/include/admin-setting.php:686
+#: includes/admin/include/admin-setting.php:915
+#: includes/admin/include/admin-setting.php:958
 msgid "Unlimited Websites"
 msgstr ""
 
@@ -883,39 +1193,61 @@ msgstr ""
 msgid "Use as featured image"
 msgstr ""
 
-#: includes/addons/product_description.php:113
+#: includes/addons/product_short_description.php:127
+#: includes/addons/product_title.php:133
+#: includes/addons/product_description.php:120
 msgid "Use font family from google font."
 msgstr ""
 
-#: includes/addons/product_description.php:111
+#: includes/addons/product_short_description.php:125
+#: includes/addons/product_title.php:131
+#: includes/addons/product_description.php:118
 msgid "Use google font?"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:516
+#: includes/admin/include/admin-setting.php:776
 msgid "Video Tutorial"
+msgstr ""
+
+#: includes/single-add-to-cart-ajax.php:62
+msgid "View Cart"
 msgstr ""
 
 #: includes/custom-posts.php:19
 msgid "View Template"
 msgstr ""
 
-#. Name of the plugin
+#: includes/addons/product_reviews.php:48
+#: includes/addons/product_additional_information.php:65
+#: includes/addons/product_short_description.php:97
+#: includes/addons/product_rating.php:68 includes/addons/product_price.php:61
+#: includes/addons/archive_product.php:126 includes/addons/product_image.php:55
+#: includes/addons/product_related.php:79 includes/addons/product_title.php:96
+#: includes/addons/product_data_tab.php:72
+#: includes/addons/product_description.php:90
+#: includes/addons/product_upsell.php:48 includes/addons/product_meta.php:44
+#: includes/addons/product_stock.php:65
+#: includes/addons/product_add_to_cart.php:64
 msgid "WC Builder"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:536
+#. Name of the plugin
+msgid "WC Builder - WooCommerce Page Builder for WPBakery"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:796
 msgid "WC Builder Free"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:532
+#: includes/admin/include/admin-setting.php:792
 msgid "WC Builder Free VS WC Builder Pro."
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:553
+#: includes/admin/include/admin-setting.php:812
 msgid "WC Builder Pro"
 msgstr ""
 
-#: wc-builder.php:44 includes/custom-posts.php:9 includes/custom-posts.php:10
+#: wc-builder.php:92 includes/custom-posts.php:9 includes/custom-posts.php:10
 msgid "WC Page Builder"
 msgstr ""
 
@@ -924,7 +1256,75 @@ msgstr ""
 msgid "WC Page Builder Options"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:490
+#: includes/addons/product_add_to_cart.php:60
+msgid "WCB: Product Add To Cart"
+msgstr ""
+
+#: includes/addons/product_additional_information.php:61
+msgid "WCB: Product Additional Information"
+msgstr ""
+
+#: includes/addons/archive_product.php:122
+msgid "WCB: Product Archive"
+msgstr ""
+
+#: includes/addons/product_data_tab.php:68
+msgid "WCB: Product Data Tab"
+msgstr ""
+
+#: includes/addons/product_description.php:86
+msgid "WCB: Product Description"
+msgstr ""
+
+#: includes/addons/product_meta.php:40
+msgid "WCB: Product Meta"
+msgstr ""
+
+#: includes/addons/product_price.php:57
+msgid "WCB: Product Price"
+msgstr ""
+
+#: includes/addons/product_rating.php:64
+msgid "WCB: Product Rating"
+msgstr ""
+
+#: includes/addons/product_reviews.php:44
+msgid "WCB: Product Reviews"
+msgstr ""
+
+#: includes/addons/product_short_description.php:93
+msgid "WCB: Product Short Description"
+msgstr ""
+
+#: includes/addons/product_stock.php:61
+msgid "WCB: Product Stock"
+msgstr ""
+
+#: includes/addons/product_image.php:51
+msgid "WCB: Product Thumbnail"
+msgstr ""
+
+#: includes/addons/product_title.php:92
+msgid "WCB: Product title"
+msgstr ""
+
+#: includes/addons/product_upsell.php:44
+msgid "WCB: Product Upsell"
+msgstr ""
+
+#: includes/addons/product_related.php:75
+msgid "WCB: Related Products"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:72
+msgid "Whols"
+msgstr ""
+
+#: includes/admin/recommended-plugins/recommendations.php:67
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin/include/admin-setting.php:750
 msgid "WooCommerce Page Builder Settings"
 msgstr ""
 
@@ -932,137 +1332,77 @@ msgstr ""
 msgid "WooCommerce Template"
 msgstr ""
 
-#: includes/addons/product_add_to_cart.php:53
-msgid "WPB: Product Add To Cart"
+#: includes/admin/recommended-plugins/recommendations.php:46
+#: includes/admin/recommended-plugins/recommendations.php:88
+msgid "WP Plugin Manager"
 msgstr ""
 
-#: includes/addons/product_additional_information.php:53
-msgid "WPB: Product Additional Information"
-msgstr ""
-
-#: includes/addons/archive_product.php:76
-msgid "WPB: Product Archive"
-msgstr ""
-
-#: includes/addons/product_data_tab.php:58
-msgid "WPB: Product Data Tab"
-msgstr ""
-
-#: includes/addons/product_description.php:78
-msgid "WPB: Product Description"
-msgstr ""
-
-#: includes/addons/product_meta.php:38
-msgid "WPB: Product Meta"
-msgstr ""
-
-#: includes/addons/product_price.php:51
-msgid "WPB: Product Price"
-msgstr ""
-
-#: includes/addons/product_rating.php:57
-msgid "WPB: Product Rating"
-msgstr ""
-
-#: includes/addons/product_reviews.php:44
-msgid "WPB: Product Reviews"
-msgstr ""
-
-#: includes/addons/product_short_description.php:85
-msgid "WPB: Product Short Description"
-msgstr ""
-
-#: includes/addons/product_stock.php:54
-msgid "WPB: Product Stock"
-msgstr ""
-
-#: includes/addons/product_image.php:42
-msgid "WPB: Product Thumbnail"
-msgstr ""
-
-#: includes/addons/product_title.php:83
-msgid "WPB: Product title"
-msgstr ""
-
-#: includes/addons/product_upsell.php:53
-msgid "WPB: Product Upsell"
-msgstr ""
-
-#: includes/addons/product_related.php:74
-msgid "WPB: Related Products"
-msgstr ""
-
-#: includes/addons/archive_product.php:81
-#: includes/addons/product_additional_information.php:58
-#: includes/addons/product_add_to_cart.php:58
-#: includes/addons/product_data_tab.php:63
-#: includes/addons/product_description.php:83
-#: includes/addons/product_image.php:47 includes/addons/product_meta.php:43
-#: includes/addons/product_price.php:56 includes/addons/product_rating.php:62
-#: includes/addons/product_related.php:79
-#: includes/addons/product_reviews.php:49
-#: includes/addons/product_short_description.php:90
-#: includes/addons/product_stock.php:59 includes/addons/product_title.php:88
-#: includes/addons/product_upsell.php:58
-msgid "WPBForWPbakery"
-msgstr ""
-
-#: includes/addons/archive_product.php:128
-#: includes/addons/archive_product.php:130
-#: includes/addons/product_additional_information.php:102
-#: includes/addons/product_additional_information.php:104
-#: includes/addons/product_add_to_cart.php:88
-#: includes/addons/product_add_to_cart.php:90
-#: includes/addons/product_data_tab.php:112
-#: includes/addons/product_data_tab.php:114
-#: includes/addons/product_description.php:138
-#: includes/addons/product_description.php:140
-#: includes/addons/product_image.php:57 includes/addons/product_image.php:59
-#: includes/addons/product_meta.php:53 includes/addons/product_meta.php:55
-#: includes/addons/product_price.php:76 includes/addons/product_price.php:78
-#: includes/addons/product_rating.php:87 includes/addons/product_rating.php:89
-#: includes/addons/product_related.php:161
+#: includes/addons/product_reviews.php:58
+#: includes/addons/product_reviews.php:60
+#: includes/addons/product_additional_information.php:109
+#: includes/addons/product_additional_information.php:111
+#: includes/addons/product_short_description.php:152
+#: includes/addons/product_short_description.php:154
+#: includes/addons/product_rating.php:93 includes/addons/product_rating.php:95
+#: includes/addons/product_price.php:81 includes/addons/product_price.php:83
+#: includes/addons/archive_product.php:231
+#: includes/addons/archive_product.php:233 includes/addons/product_image.php:65
+#: includes/addons/product_image.php:67 includes/addons/product_related.php:161
 #: includes/addons/product_related.php:163
-#: includes/addons/product_reviews.php:59
-#: includes/addons/product_reviews.php:61
-#: includes/addons/product_short_description.php:145
-#: includes/addons/product_short_description.php:147
-#: includes/addons/product_stock.php:79 includes/addons/product_stock.php:81
-#: includes/addons/product_title.php:150 includes/addons/product_title.php:152
-#: includes/addons/product_upsell.php:106
-#: includes/addons/product_upsell.php:108
+#: includes/addons/product_title.php:158 includes/addons/product_title.php:160
+#: includes/addons/product_data_tab.php:121
+#: includes/addons/product_data_tab.php:123
+#: includes/addons/product_description.php:145
+#: includes/addons/product_description.php:147
+#: includes/addons/product_upsell.php:96 includes/addons/product_upsell.php:98
+#: includes/addons/product_meta.php:54 includes/addons/product_meta.php:56
+#: includes/addons/product_stock.php:85 includes/addons/product_stock.php:87
+#: includes/addons/product_add_to_cart.php:94
+#: includes/addons/product_add_to_cart.php:96
 msgid "Wrapper Styling"
 msgstr ""
 
-#: includes/addons/archive_product.php:116
+#: includes/addons/archive_product.php:162
+#: includes/addons/archive_product.php:173
+#: includes/addons/archive_product.php:184
 #: includes/addons/product_related.php:121
 msgid "Yes"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:110
-msgid "You can select Custom cart page layout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:129
+msgid ""
+"You can select Custom cart page layout <span class=\"proelement\">( Pro )"
+"</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:122
-msgid "You can select Custom checkout page layout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:141
+msgid ""
+"You can select Custom checkout page layout <span class=\"proelement\">( Pro )"
+"</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:158
-msgid "You can select Custom my account login page layout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:177
+msgid ""
+"You can select Custom my account login page layout <span "
+"class=\"proelement\">( Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:146
-msgid "You can select Custom my account page layout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:165
+msgid ""
+"You can select Custom my account page layout <span class=\"proelement\">( "
+"Pro )</span>"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:92
+#: includes/admin/include/admin-setting.php:111
 msgid "You can select Custom Product details layout"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:101
+#: includes/admin/include/admin-setting.php:120
 msgid "You can select Custom Product Shop page layout"
 msgstr ""
 
-#: includes/admin/include/admin-setting.php:134
-msgid "You can select Custom thank you page layout <span>( Pro )</span>"
+#: includes/admin/include/admin-setting.php:153
+msgid ""
+"You can select Custom thank you page layout <span class=\"proelement\">( Pro "
+")</span>"
 msgstr ""

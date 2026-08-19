@@ -51,8 +51,7 @@ class WPBForWPbakery_Product_Image{
             "name" => __("WCB: Product Thumbnail", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_thumbnail",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_short_description_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-format-image',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
                 array(

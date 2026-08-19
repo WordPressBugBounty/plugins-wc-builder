@@ -15,24 +15,15 @@ class WPBForWPbakery_Product_Upsell{
 
     public function render_shortcode( $atts, $content = null ) {
         extract(shortcode_atts(array(
-            'el_class' => '', 
-            'wrapper_css' => '', 
+            'columns' => '4',
+            'orderby' => 'date',
+            'order' => 'DESC',
+            'el_class' => '',
+            'wrapper_css' => '',
         ),$atts));
 
         $unique_class = uniqid('wpbforwpbakery_product_upsell');
-        $product_per_page   = '-1';
-        $columns            = 4;
-        $orderby            = 'rand';
-        $order              = 'desc';
-        if ( ! empty( $columns ) ) {
-            $columns = $columns;
-        }
-        if ( ! empty( $orderby ) ) {
-            $orderby = $orderby;
-        }
-        if ( ! empty( $order ) ) {
-            $order = $order;
-        }
+        $product_per_page = '-1';
 
         ob_start();
         echo '<div class="'. esc_attr($el_class . ' ' . $unique_class) .wpbforwpbakery_get_vc_custom_class($wrapper_css, ' ') .'">';
@@ -53,15 +44,14 @@ class WPBForWPbakery_Product_Upsell{
             "name" => __("WCB: Product Upsell", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_upsell",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_upsell_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-forms',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(
             	    'param_name' => 'columns',
             	    'heading' => __( 'Columns', 'wpbforwpbakery' ),
             	    "type" => "dropdown",
-            	    "default_set" => '4',
+            	    "std" => '4',
             	    'value' => [
             	        __( '1', 'wpbforwpbakery' )  =>  '1',
             	        __( '2', 'wpbforwpbakery' )  =>  '2',
@@ -74,7 +64,7 @@ class WPBForWPbakery_Product_Upsell{
             	    'param_name' => 'orderby',
             	    'heading' => __( 'Order By', 'wpbforwpbakery' ),
             	    "type" => "dropdown",
-            	    "default_set" => 'date',
+            	    "std" => 'date',
             	    'value' => [
             	        __( 'Date', 'wpbforwpbakery' )  =>  'date',
             	        __( 'Title', 'wpbforwpbakery' )  =>  'title',
@@ -89,7 +79,7 @@ class WPBForWPbakery_Product_Upsell{
             	    'param_name' => 'order',
             	    'heading' => __( 'Order', 'wpbforwpbakery' ),
             	    "type" => "dropdown",
-            	    "default_set" => 'DESC',
+            	    "std" => 'DESC',
             	    'value' => [
             	        __( 'ASC', 'wpbforwpbakery' )  =>  'ASC',
             	        __( 'DESC', 'wpbforwpbakery' )  =>  'DESC',

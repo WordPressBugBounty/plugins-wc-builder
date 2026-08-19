@@ -44,8 +44,7 @@ class WPBForWPbakery_Product_Reviews{
             "name" => __("WCB: Product Reviews", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_reviews",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_reviews_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-testimonial',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
                 array(

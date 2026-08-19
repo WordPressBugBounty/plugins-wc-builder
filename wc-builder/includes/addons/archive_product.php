@@ -14,11 +14,6 @@ if(!class_exists('WPBForWPbakery_Product_Archive')){
           add_action( 'vc_after_init', array( $this, 'integrateWithVC' ) );
       }
 
-      public function wpbforwpbakery_custom_product_limit( $limit = 3 ) {
-          $limit = ( $columns * $rows );
-          return $limit;
-      }
-
       public function render_shortcode( $atts, $content = null ) {
           extract(shortcode_atts(array(
               'columns' => '4', 
@@ -41,12 +36,12 @@ if(!class_exists('WPBForWPbakery_Product_Archive')){
           $archive_obj = get_queried_object();
 
           // category
-          if(is_tax('product_cat') && is_product_category()){
+          if(is_tax('product_cat') && is_product_category() && $archive_obj instanceof WP_Term){
             $attributes['category'] = $archive_obj->name;
           }
 
           // tag
-          if(is_tax('product_tag') && is_product_tag()){
+          if(is_tax('product_tag') && is_product_tag() && $archive_obj instanceof WP_Term){
             $attributes['tag'] = $archive_obj->name;
           }
 
@@ -127,8 +122,7 @@ if(!class_exists('WPBForWPbakery_Product_Archive')){
               "name" => __("WCB: Product Archive", 'wpbforwpbakery'),
               "base" => "wpbforwpbakery_product_archive",
               "class" => "",
-              "controls" => "full",
-              "icon" => 'wpbforwpbakery_product_archive_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+              "icon" => 'dashicons dashicons-store',
               "category" => __('WC Builder', 'wpbforwpbakery'),
               "params" => array(
                   array(

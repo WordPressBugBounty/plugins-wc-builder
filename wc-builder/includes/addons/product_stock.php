@@ -61,8 +61,7 @@ class WPBForWPbakery_Product_Stock{
             "name" => __("WCB: Product Stock", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_stock",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_stock_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-clipboard',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(

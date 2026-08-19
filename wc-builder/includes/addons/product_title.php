@@ -92,54 +92,53 @@ class WPBForWPbakery_Product_Title{
           "name" => __("WCB: Product title", 'wpbforwpbakery'),
           "base" => "wpbforwpbakery_product_title",
           "class" => "",
-          "controls" => "full",
-          "icon" => 'wpbforwpbakery_product_title_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+          "icon" => 'dashicons dashicons-editor-textcolor',
           "category" => __('WC Builder', 'wpbforwpbakery'),
           "params" => array(
               array(
                   "param_name" => "tag",
                   "heading" => __("Title HTML Tag", 'wpbforwpbakery'),
                   "type" => "dropdown",
-                  "default_set" => 'normal',
+                  "std" => 'h1',
                   'value' => wpbforwpbakery_html_tag_lists(),
               ),
               array(
                 "param_name" => "text_align",
-                "heading" => __("Text Align", 'my_text_domain'),
+                "heading" => __("Text Align", 'wpbforwpbakery'),
                 "type" => "dropdown",
-                "default_set" => 'left',
+                "std" => 'left',
                 'value' => wpbforwpbakery_text_align_lists(),
               ),
               array(
                   'param_name' => 'text_color',
-                  'heading' => __( 'Text color', 'my_text_domain' ),
+                  'heading' => __( 'Text color', 'wpbforwpbakery' ),
                   'type' => 'colorpicker',
               ),
               array(
                   'param_name' => 'font_size',
-                  'heading' => __( 'Font Size', 'my_text_domain' ),
+                  'heading' => __( 'Font Size', 'wpbforwpbakery' ),
                   'type' => 'textfield',
-                  'description' => __( 'Ex: 23px', 'my_text_domain' ),
+                  'description' => __( 'Ex: 23px', 'wpbforwpbakery' ),
               ),
               array(
                   'param_name' => 'line_height',
-                  'heading' => __( 'Line Height', 'my_text_domain' ),
+                  'heading' => __( 'Line Height', 'wpbforwpbakery' ),
                   'type' => 'textfield',
-                  'description' => __( 'Ex: 25px', 'my_text_domain' ),
+                  'description' => __( 'Ex: 25px', 'wpbforwpbakery' ),
               ),
               array(
                 'type' => 'checkbox',
-                'heading' => __( 'Use google font?', 'my_text_domain' ),
+                'heading' => __( 'Use google font?', 'wpbforwpbakery' ),
                 'param_name' => 'use_google_font',
-                'description' => __( 'Use font family from google font.', 'my_text_domain' ),
+                'description' => __( 'Use font family from google font.', 'wpbforwpbakery' ),
               ),
               array(
                 'type' => 'google_fonts',
                 'param_name' => 'google_font',
                 'settings' => array(
                   'fields' => array(
-                    'font_family_description' => __( 'Select font family.', 'my_text_domain' ),
-                    'font_style_description' => __( 'Select font styling.', 'my_text_domain' ),
+                    'font_family_description' => __( 'Select font family.', 'wpbforwpbakery' ),
+                    'font_style_description' => __( 'Select font styling.', 'wpbforwpbakery' ),
                   ),
                 ),
                 'dependency' =>[

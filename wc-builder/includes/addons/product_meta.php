@@ -40,8 +40,7 @@ class WPBForWPbakery_Product_Meta{
             "name" => __("WCB: Product Meta", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_meta",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_short_description_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-info',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
                 array(

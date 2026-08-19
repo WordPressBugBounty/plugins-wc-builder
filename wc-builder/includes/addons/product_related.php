@@ -75,8 +75,7 @@ class WPBForWPbakery_Product_Related{
             "name" => __("WCB: Related Products", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_related",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_related_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-networking',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(

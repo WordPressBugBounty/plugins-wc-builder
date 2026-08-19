@@ -12,28 +12,14 @@
 }
 
 /**
- * Archive page
+ * Full-width archive template's wrapper doesn't fire woocommerce_before_main_content,
+ * so themes never get to inject their own content-area flex-grow wrapper around it -
+ * it can end up as a shrink-to-fit flex item instead of filling the row.
  */
-.woocommerce-page .woocommerce.columns-2 ul.products li.product {
-   width: 48.4%;
-   width: calc(50% - 10px);
-   margin-right: 10px;
-}
-.woocommerce-page .woocommerce.columns-1 ul.products li.product {
-   width: 100%;
-   margin-right: 0;
-}
-.woocommerce-page .woocommerce.columns-3 ul.products li.product {
-   width: 31.2%;
-   width: calc(33.33% - 14px);
-   margin-right: 10px;
-}
-.woocommerce-page.columns-4 .woocommerce.columns-3 ul.products li.product:nth-child(4n){
-   margin-right: auto;
-   clear: inherit;
-}
-.woocommerce-page.columns-4 .woocommerce.columns-5 ul.products li.product:nth-child(4n){
-  margin-right: 15px;
+.wpbforwpbakery_archive,
+.wpbforwpbakery_archive_full,
+.wpbforwpbakery-single-product {
+	width: 100%;
 }
 
 /*Social Share*/
@@ -92,7 +78,10 @@
    width: 100%;
 }
 .woocommerce div.product .related.products ul.products li.product.last {
-   margin-right: 0;
+   margin-right: 0 !important;
+}
+.woocommerce div.product .related.products ul.products li.product.first {
+   margin-left: 0 !important;
 }
 .woocommerce div.product .related.products ul.products {
    display: -webkit-box;
@@ -103,6 +92,7 @@
    -webkit-box-direction: normal;
    flex-direction: row;
    flex-wrap: wrap;
+   column-gap: 0;
    box-sizing: border-box;
    word-break: break-word;
    padding-left: 0;
@@ -131,12 +121,6 @@
    width: calc(100% / 6 - 16px) !important;
    margin-right: 8px;
    margin-left: 8px;
-}
-.woocommerce div.product .related.products ul.products.columns-2 li.product.first {
-   margin-left: 0;
-}
-.woocommerce div.product .related.products ul.products.columns-2 li.product.last {
-   margin-right: 0;
 }
 .woocommerce div.product .related.products ul.products li.product {
    justify-content: flex-start;

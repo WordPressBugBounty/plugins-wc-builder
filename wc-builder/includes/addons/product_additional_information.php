@@ -61,8 +61,7 @@ class WPBForWPbakery_Product_Additional_Information{
             "name" => __("WCB: Product Additional Information", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_additional_information",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_additional_information_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-list-view',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(

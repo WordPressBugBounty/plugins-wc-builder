@@ -1,10 +1,10 @@
 === WC Builder - WooCommerce Page Builder for WPBakery ===
 Contributors: hasthemes, htplugins, devitemsllc, zenaulislam, aslamhasib
 Tags: WooCommerce, WC-Builder, woocommerce-builder, drag-and-drop, WPBakery
-Requires at least: 5.0
-Tested up to: 6.9
-Requires PHP: 5.2.4
-Stable tag: 1.2.1
+Requires at least: 5.9
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,6 +87,14 @@ Feel free to [Contact us](https://hasthemes.com/contact-us/)
 > Includes 90+ WooCommerce Elementor templates, 22+ WooCommerce Modules, and Gutenberg Blocks.
 
 == Changelog ==
+
+= Version: 1.2.2 - Date: 19 Aug 2026 =
+* Improved: PHP 8.1+ compatibility across addons.
+* Fixed: Fatal error on PHP 8.0+ in the settings page.
+* Fixed: Product Archive & Related Products grid layout issues.
+* Fixed: Product Upsell addon ignoring its Columns/Order settings.
+* Tested: Compatible with the latest version of WordPress.
+* Tested: Compatible with the latest version of WPBakery Page Builder.
 
 = Version: 1.2.1 - Date: 14 Dec 2025 =
 * Improved: Input sanitization and output escaping across all addons.

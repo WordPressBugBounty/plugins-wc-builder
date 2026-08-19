@@ -296,3 +296,15 @@
 .wpbforwpbakery-pro-notice-button:focus,.wpbforwpbakery-pro-notice-button:hover{
   color: #fff;
 }
+
+/* Flat dashicon in the WPBakery "Add Element" popup - strip the default vc_element-icon logo badge */
+.vc_element-icon.dashicons{
+  background-image: none;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #7f8790;
+}

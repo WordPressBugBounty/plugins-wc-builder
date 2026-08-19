@@ -68,8 +68,7 @@ class WPBForWPbakery_Product_Data_Tab{
             "name" => __("WCB: Product Data Tab", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_data_tab",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_data_tab_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-index-card',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
             	array(

@@ -65,9 +65,11 @@ class WPBForWPbakery_Product_Description{
         	$style = 'style="' . esc_attr( implode( ';', $styles ) . ';' . $font_inline_style ) . '"';
         }
 
+        $description = $product ? $product->get_description() : '';
+
         printf('<div class="woocommerce_product_description %1$s" %3$s>%2$s</div>',
         	esc_attr($el_class) . wpbforwpbakery_get_vc_custom_class($wrapper_css, ' '),
-        	$post->post_content,
+        	apply_filters( 'the_content', $description ),
         	$style
     	);
 
@@ -84,15 +86,14 @@ class WPBForWPbakery_Product_Description{
             "name" => __("WCB: Product Description", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_description",
             "class" => "",
-            "controls" => "full",
-            "icon" => 'wpbforwpbakery_product_description_icon', // or css class name which you can reffer in your css file later. Example: "vc_extend_my_class"
+            "icon" => 'dashicons dashicons-text-page',
             "category" => __('WC Builder', 'wpbforwpbakery'),
             "params" => array(
                 array(
                   "param_name" => "text_align",
                   "heading" => __("Text Align", 'wpbforwpbakery'),
                   "type" => "dropdown",
-                  "default_set" => 'left',
+                  "std" => 'left',
                   'value' => wpbforwpbakery_text_align_lists(),
                 ),
                 array(
