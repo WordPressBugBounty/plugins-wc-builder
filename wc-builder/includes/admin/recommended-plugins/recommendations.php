@@ -33,7 +33,7 @@ if( class_exists('Hasthemes\WpbForWpbakery\HTRP_Recommended_Plugins') ){
             array(
                 'slug'      => 'support-genix-lite',
                 'location'  => 'support-genix-lite.php',
-                'name'      => __( 'Support Genix – Helpdesk, AI Chatbot, Knowledge Base & Customer Support Ticketing System', 'wpbforwpbakery' )
+                'name'      => __( 'Support Genix - Helpdesk, AI Chatbot, Knowledge Base & Customer Support Ticketing System', 'wpbforwpbakery' )
             ),
             array(
                 'slug'      => 'hashbar-wp-notification-bar',
@@ -46,19 +46,19 @@ if( class_exists('Hasthemes\WpbForWpbakery\HTRP_Recommended_Plugins') ){
                 'name'      => __( 'WP Plugin Manager', 'wpbforwpbakery' )
             ),
             array(
-                'slug'      => 'cookieray',
-                'location'  => 'cookieray.php',
-                'name'      => __( 'CookieRay – Cookie Banner for Cookie Consent (GDPR/CCPA Compliant)', 'wpbforwpbakery' )
+                'slug'      => 'ht-contactform',
+                'location'  => 'contact-form-widget-elementor.php',
+                'name'      => __( 'HT Contact Form – Drag & Drop Form Builder for WordPress', 'wpbforwpbakery' )
             ),
             array(
-                'slug'      => 'pixelavo',
-                'location'  => 'pixelavo.php',
-                'name'      => __( 'Pixelavo – Server Side Tracking & Pixel + AI Ads Tools', 'wpbforwpbakery' )
+                'slug'      => 'cookieray',
+                'location'  => 'cookieray.php',
+                'name'      => __( 'CookieRay - Cookie Banner for Cookie Consent (GDPR/CCPA Compliant)', 'wpbforwpbakery' )
             ),
             array(
                 'slug'      => 'kelune-crm',
                 'location'  => 'kelune-crm.php',
-                'name'      => __( 'Kelune CRM', 'wpbforwpbakery' )
+                'name'      => __( 'Kelune CRM - Contact Management, Email Marketing, Newsletter & Marketing Automation', 'wpbforwpbakery' )
             ),
         )
     ));
@@ -69,13 +69,18 @@ if( class_exists('Hasthemes\WpbForWpbakery\HTRP_Recommended_Plugins') ){
             array(
                 'slug'      => 'whols',
                 'location'  => 'whols.php',
-                'name'      => __( 'Whols', 'wpbforwpbakery' )
+                'name'      => __( 'Whols - Wholesale Prices and B2B Store Solution for WooCommerce', 'wpbforwpbakery' )
             ),
             array(
                 'slug'      => 'swatchly',
                 'location'  => 'swatchly.php',
-                'name'      => __( 'Swatchly – Product Variation Swatches for WooCommerce', 'wpbforwpbakery' )
+                'name'      => __( 'Swatchly - Product Variation Swatches for WooCommerce', 'wpbforwpbakery' )
             ),
+            array(
+                    'slug'      => 'recurio',
+                    'location'  => 'recurio.php',
+                    'name'      => __( 'Recurio – Ultimate Subscription for WooCommerce', 'wpbforwpbakery' )
+                ),
         )
     ));
 
@@ -95,12 +100,7 @@ if( class_exists('Hasthemes\WpbForWpbakery\HTRP_Recommended_Plugins') ){
             array(
                 'slug'      => 'cookieray',
                 'location'  => 'cookieray.php',
-                'name'      => __( 'CookieRay – Cookie Banner for Cookie Consent (GDPR/CCPA Compliant)', 'wpbforwpbakery' )
-            ),
-            array(
-                'slug'      => 'recurio',
-                'location'  => 'recurio.php',
-                'name'      => __( 'Recurio – Ultimate Subscription for WooCommerce', 'wpbforwpbakery' )
+                'name'      => __( 'CookieRay - Cookie Banner for Cookie Consent (GDPR/CCPA Compliant)', 'wpbforwpbakery' )
             ),
             array(
                 'slug'      => 'insert-headers-and-footers-script',
@@ -108,14 +108,14 @@ if( class_exists('Hasthemes\WpbForWpbakery\HTRP_Recommended_Plugins') ){
                 'name'      => __( 'Insert Headers and Footers Code', 'wpbforwpbakery' )
             ),
             array(
-                'slug'      => 'extensions-for-cf7',
-                'location'  => 'extensions-for-cf7.php',
-                'name'      => __( 'Extensions For CF7 (Contact form 7 Database, Conditional Fields and Redirection)', 'wpbforwpbakery' )
+                'slug'      => 'pixelavo',
+                'location'  => 'pixelavo.php',
+                'name'      => __( 'Pixelavo - Server Side Tracking & Pixel + AI Ads Tools', 'wpbforwpbakery' )
             ),
             array(
                 'slug'      => 'courseglade-lms',
                 'location'  => 'courseglade-lms.php',
-                'name'      => __( 'ECourseGlade LMS – Online Course & eLearning Platform', 'wpbforwpbakery' )
+                'name'      => __( 'CourseGlade LMS - Online Course & eLearning Platform', 'wpbforwpbakery' )
             ),
         )
     ));
