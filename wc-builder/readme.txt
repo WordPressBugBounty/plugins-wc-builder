@@ -4,7 +4,7 @@ Tags: WooCommerce, WC-Builder, woocommerce-builder, drag-and-drop, WPBakery
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,6 +87,14 @@ Feel free to [Contact us](https://hasthemes.com/contact-us/)
 > Includes 90+ WooCommerce Elementor templates, 22+ WooCommerce Modules, and Gutenberg Blocks.
 
 == Changelog ==
+
+= Version: 1.2.4 - Date: 18 Oct 2026 =
+
+* Fixed: PHP 8 "Undefined array key" warning in the Product Archive element when Allow Order or Paginate is set to No.
+* Fixed: JavaScript error on the Recommended Plugins page when a plugin installation fails.
+* Tested: Compatibility with the latest version of WordPress.
+* Tested: Compatible with the latest version of WPBakery Page Builder.
+* Tested: Compatible with the latest version of WooCommerce and PHP 8.x.
 
 = Version: 1.2.3 - Date: 25 Aug 2026 =
 

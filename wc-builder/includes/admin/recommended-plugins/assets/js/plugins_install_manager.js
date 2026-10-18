@@ -33,7 +33,7 @@
         installingError: function( e, response ) {
             e.preventDefault();
             var $card = $( '.htrp-plugin-' + response.slug );
-            $button = $card.find( '.button' );
+            var $button = $card.find( '.button' );
             $button.removeClass( 'button-primary' ).addClass( 'disabled' ).html( wp.updates.l10n.installFailedShort );
         },
 

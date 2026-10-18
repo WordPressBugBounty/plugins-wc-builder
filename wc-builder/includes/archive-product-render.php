@@ -116,7 +116,7 @@ class WPBForWPbakery_Archive_Products_Render extends WC_Shortcode_Products {
             if ( 'yes' === $settings['paginate'] && 'yes' === $settings['allow_order'] ) {
                 $ordering_args = WC()->query->get_catalog_ordering_args();
             } else {
-                $ordering_args = WC()->query->get_catalog_ordering_args( $query_args['orderby'], $query_args['order'] );
+                $ordering_args = WC()->query->get_catalog_ordering_args( $query_args['orderby'] ?? '', $query_args['order'] ?? '' );
             }
     
             if( $settings['allow_order'] == 'yes' ){
