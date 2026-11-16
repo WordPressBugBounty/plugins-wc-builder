@@ -4,7 +4,7 @@ Tags: WooCommerce, WC-Builder, woocommerce-builder, drag-and-drop, WPBakery
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,6 +87,14 @@ Feel free to [Contact us](https://hasthemes.com/contact-us/)
 > Includes 90+ WooCommerce Elementor templates, 22+ WooCommerce Modules, and Gutenberg Blocks.
 
 == Changelog ==
+
+= Version: 1.2.5 - Date: 16 Nov 2026 =
+
+* Fixed: Deprecation notices for the "std" parameter attribute on WC Builder elements with WPBakery Page Builder 9.1.
+* Fixed: JavaScript "product_type is not defined" error on the frontend that prevented the single product AJAX add to cart from working.
+* Tested: Compatible with WPBakery Page Builder 9.1.
+* Tested: Compatibility with the latest version of WordPress.
+* Tested: Compatible with the latest version of WooCommerce and PHP 8.x.
 
 = Version: 1.2.4 - Date: 18 Oct 2026 =
 

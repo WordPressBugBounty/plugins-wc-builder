@@ -82,7 +82,7 @@ class WPBForWPbakery_Product_Description{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Description", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_description",
             "class" => "",

@@ -6,6 +6,8 @@
 
     // On document ready
     $( document ).ready( function () {
+        var product_type = '',
+            add_to_cart_selector = '';
 
         if($('.single-product  .cart').length && $('.single-product  .cart').attr('method') == 'post'){
             product_type = 'simple';

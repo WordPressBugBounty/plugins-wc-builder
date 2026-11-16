@@ -57,7 +57,7 @@ class WPBForWPbakery_Product_Stock{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Stock", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_stock",
             "class" => "",

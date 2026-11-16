@@ -40,7 +40,7 @@ class WPBForWPbakery_Product_Reviews{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Reviews", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_reviews",
             "class" => "",

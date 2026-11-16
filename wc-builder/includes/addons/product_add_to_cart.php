@@ -56,7 +56,7 @@ class WPBForWPbakery_Product_Add_To_Cart{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Add To Cart", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_add_to_cart",
             "class" => "",

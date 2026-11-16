@@ -71,7 +71,7 @@ class WPBForWPbakery_Product_Related{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Related Products", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_related",
             "class" => "",

@@ -40,7 +40,7 @@ class WPBForWPbakery_Product_Upsell{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Upsell", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_upsell",
             "class" => "",

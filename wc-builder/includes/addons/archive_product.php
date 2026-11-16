@@ -118,7 +118,7 @@ if(!class_exists('WPBForWPbakery_Product_Archive')){
 
           More info: http://kb.wpbakery.com/index.php?title=Vc_map
           */
-          vc_map( array(
+          wpbforwpbakery_vc_map( array(
               "name" => __("WCB: Product Archive", 'wpbforwpbakery'),
               "base" => "wpbforwpbakery_product_archive",
               "class" => "",

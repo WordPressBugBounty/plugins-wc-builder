@@ -64,7 +64,7 @@ class WPBForWPbakery_Product_Data_Tab{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Data Tab", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_data_tab",
             "class" => "",

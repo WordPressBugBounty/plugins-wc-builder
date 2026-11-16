@@ -83,6 +83,44 @@ function wpbforwpbakery_get_option( $option, $section, $default = '', $empty_che
     return $default;
 }
 
+/**
+ * Register a WPBakery element, adding "settings[default]" for params that use the
+ * legacy "std" attribute. WPBakery 9.1+ deprecates "std" in favour of "settings[default]".
+ * Older WPBakery versions receive the params unchanged.
+ *
+ * @since 1.2.5
+ * @param array $settings Element settings, same as vc_map().
+ * @return mixed
+ */
+function wpbforwpbakery_vc_map( $settings ) {
+	if ( defined( 'WPB_VC_VERSION' ) && version_compare( WPB_VC_VERSION, '9.1', '>=' ) && ! empty( $settings['params'] ) && is_array( $settings['params'] ) ) {
+		$settings['params'] = wpbforwpbakery_vc_params_add_default( $settings['params'] );
+	}
+	return vc_map( $settings );
+}
+
+/**
+ * Copy legacy "std" into "settings[default]" for each param (including param_group children).
+ *
+ * @since 1.2.5
+ * @param array $params List of vc_map params.
+ * @return array
+ */
+function wpbforwpbakery_vc_params_add_default( $params ) {
+	foreach ( $params as $key => $param ) {
+		if ( ! is_array( $param ) ) {
+			continue;
+		}
+		if ( array_key_exists( 'std', $param ) && ! isset( $param['settings']['default'] ) ) {
+			$params[ $key ]['settings']['default'] = $param['std'];
+		}
+		if ( ! empty( $param['params'] ) && is_array( $param['params'] ) ) {
+			$params[ $key ]['params'] = wpbforwpbakery_vc_params_add_default( $param['params'] );
+		}
+	}
+	return $params;
+}
+
 /*
  * WPbakery Google Fonts
  * return array

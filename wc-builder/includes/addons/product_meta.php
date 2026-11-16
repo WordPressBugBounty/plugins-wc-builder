@@ -36,7 +36,7 @@ class WPBForWPbakery_Product_Meta{
 
         More info: http://kb.wpbakery.com/index.php?title=Vc_map
         */
-        vc_map( array(
+        wpbforwpbakery_vc_map( array(
             "name" => __("WCB: Product Meta", 'wpbforwpbakery'),
             "base" => "wpbforwpbakery_product_meta",
             "class" => "",
